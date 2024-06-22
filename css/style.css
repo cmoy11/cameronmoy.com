@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@400;500;700&display=swap');
 
 body {
     font-family: 'Jaldi', sans-serif;
@@ -40,8 +40,7 @@ p a:hover {
 
 strong {
     text-decoration: none;
-    background-color: #42368d40;
-    line-height: 0.5;
+    font-weight: 700;
 }
 
 main {
@@ -299,7 +298,7 @@ nav .nav-links-mobile li {
 }
 
 .project-card img {
-    width: 80%;
+    width: 90%;
     height: 35vw;
     border-radius: 15px;
     object-fit: cover;
@@ -321,6 +320,14 @@ nav .nav-links-mobile li {
     color: #202020;
 }
 
+.project-pub {
+    text-decoration: none !important;
+}
+
+.project-pub:hover {
+    text-decoration: underline !important;
+}
+
 /* Publications styling */
 .pub-section {
     display: flex;
@@ -332,7 +339,7 @@ nav .nav-links-mobile li {
 /* projects */
 .key-details strong{
     text-decoration: none;
-    background-color: #42368d40;
+    font-weight: 700;
 }
 
 .key-details {
@@ -404,6 +411,7 @@ nav .nav-links-mobile li {
 
 figure img {
     width: 100%;
+    height: auto;
     border-radius: 15px;
 }
 
@@ -432,14 +440,15 @@ ol {
 }
 
 .projects-link {
-    text-decoration: none;
-    color: #202020;
+    background-color: #f5f5f5 !important;
+    border: #f5f5f5 0px solid !important;
+    padding: 0px !important;
 }
 
-.project-card:hover {
+/* .project-card:hover {
     background-color: #fff;
     border:#202020 1px solid;
-}
+} */
 
 .space {
     display: flex;
@@ -458,12 +467,21 @@ iframe {
     align-items: center;
 }
 
+.static-footer strong {
+    text-decoration: none;
+    background-color: #42368d40;
+    line-height: 0.5;
+    font-weight: 400;
+}
+
 /* CV Styling */
 
 .cv h2 {
     border-bottom:#42368D 1px solid;
     padding-bottom: 5px;
     margin-top: 10px;
+    color:#42368D;
+    font-weight: 500;
 }
 
 .cv-content {
@@ -495,6 +513,7 @@ iframe {
 .cv-content strong {
     font-weight: 700;
     background-color: #fff;
+    color:#202020
 }
 
 .cv-pubs > * {
@@ -619,7 +638,7 @@ iframe {
 
     .pubs {
         padding-left: 15vw;
-        padding-right: 20vw;
+        padding-right: 15vw;
     }
 
     .project-card img {
@@ -648,6 +667,6 @@ iframe {
     }
 
     .cv {
-        margin: 0px 7.5vw 0px 7.5vw;
+        margin: 0px 15vw 0px 15vw;
     }
 }
