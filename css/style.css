@@ -253,6 +253,15 @@ nav .nav-links-mobile li {
     align-items: center;
 }
 
+.headshot {
+    border-radius: 25px;
+    grid-row: 2 / 3 !important;
+}
+
+.index-content {
+    grid-row: 1 / 2 !important;
+}
+
 .index-photo-container {
     width: 100%;
     display: flex;
@@ -623,6 +632,17 @@ iframe {
     .main-index {
         grid-template-columns: 1fr 1fr;
         column-gap: 30px;
+    }
+
+    .headshot {
+        border-radius: 25px;
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+    }
+    
+    .index-content {
+        grid-row: 1 / 2;
+        grid-column: 2 / 3;
     }
 
     /* .projects-container {
