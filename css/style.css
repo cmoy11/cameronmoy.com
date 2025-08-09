@@ -501,6 +501,7 @@ h2 {
 
 .cv-mobile {
     display: block;
+    margin-left: 25px;
 }
 
 .cv-web {
@@ -537,6 +538,7 @@ h2 {
 
 .cv-presentations > p {
     margin-top: 25px;
+    margin-left: 25px;
 }
 
 .cv-button {
@@ -687,6 +689,7 @@ h2 {
     
     .cv-web {
         display: block;
+        margin-left: 25px;
     }
 
     .cv {
